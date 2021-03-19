@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+robotframework = "==3.2.1"
+robotframework-requests = "*"
+
+[packages]
+robotframework = "==3.2.1"
+robotframework-seleniumlibrary = "*"
+
+[requires]
+python_version = "3.6"

@@ -1,0 +1,110 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "3f43dbc47d0ce26b4d4838f445b2bc2b265b2315051d67e11457f6b1f10c235f"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "robotframework": {
+            "hashes": [
+                "sha256:34923415afd9491141630ad1d7146b638ee869f1c7f97c450c0da5ce79e1ac23",
+                "sha256:d693e6d06b17f48669e2a8c4cb6c1f0d56e5f1a74835d18b8ea2118da7bf2d79"
+            ],
+            "index": "pypi",
+            "version": "==3.2.1"
+        },
+        "robotframework-pythonlibcore": {
+            "hashes": [
+                "sha256:1b311764721b6117d85b0702ab95a7f1d0525d9d3e3433cca02cdbc0010edb55",
+                "sha256:b5b30239086b656e2fb6adbc91e988b9745636bd0d3ff7db2ab0cab43b0621a9"
+            ],
+            "version": "==2.2.1"
+        },
+        "robotframework-seleniumlibrary": {
+            "hashes": [
+                "sha256:22373d59a7061a75ef9bd2b4d163d72af74d40a141f9391d68ae89fae441b203",
+                "sha256:87fd0a58af66b9e04b0450aa25692e34835f3d267db827de5d285839572cd4ff"
+            ],
+            "index": "pypi",
+            "version": "==5.1.1"
+        },
+        "selenium": {
+            "hashes": [
+                "sha256:2d7131d7bc5a5b99a2d9b04aaf2612c411b03b8ca1b1ee8d3de5845a9be2cb3c",
+                "sha256:deaf32b60ad91a4611b98d8002757f29e6f2c2d5fcaf202e1c9ad06d6772300d"
+            ],
+            "version": "==3.141.0"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:2f4da4594db7e1e110a944bb1b551fdf4e6c136ad42e4234131391e21eb5b0df",
+                "sha256:e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937"
+            ],
+            "version": "==1.26.4"
+        }
+    },
+    "develop": {
+        "certifi": {
+            "hashes": [
+                "sha256:1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c",
+                "sha256:719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830"
+            ],
+            "version": "==2020.12.5"
+        },
+        "chardet": {
+            "hashes": [
+                "sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa",
+                "sha256:f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5"
+            ],
+            "version": "==4.0.0"
+        },
+        "idna": {
+            "hashes": [
+                "sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6",
+                "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"
+            ],
+            "version": "==2.10"
+        },
+        "requests": {
+            "hashes": [
+                "sha256:27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804",
+                "sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e"
+            ],
+            "version": "==2.25.1"
+        },
+        "robotframework": {
+            "hashes": [
+                "sha256:34923415afd9491141630ad1d7146b638ee869f1c7f97c450c0da5ce79e1ac23",
+                "sha256:d693e6d06b17f48669e2a8c4cb6c1f0d56e5f1a74835d18b8ea2118da7bf2d79"
+            ],
+            "index": "pypi",
+            "version": "==3.2.1"
+        },
+        "robotframework-requests": {
+            "hashes": [
+                "sha256:89cf551e05f0b71f025949b5ae1ccffa494ae4309c80df50d972c9b22e1ad12a",
+                "sha256:b26f4ae617ff8c4b522fba422b7c8f83545a98aec3e2deb7f1aa53dcd68defe2"
+            ],
+            "index": "pypi",
+            "version": "==0.8.1"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:2f4da4594db7e1e110a944bb1b551fdf4e6c136ad42e4234131391e21eb5b0df",
+                "sha256:e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937"
+            ],
+            "version": "==1.26.4"
+        }
+    }
+}
