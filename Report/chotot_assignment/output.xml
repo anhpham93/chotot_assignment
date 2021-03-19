@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.1 (Python 3.8.2 on darwin)" generated="20210319 13:48:01.861" rpa="false">
+<robot generator="Robot 3.2.1 (Python 3.8.2 on darwin)" generated="20210319 14:19:21.857" rpa="false">
 <suite id="s1" name="Selenium Chotot" source="/Users/anhpham/Learn/InterviewAssignment/chotot_assignment/selenium_chotot">
 <suite id="s1-s1" name="Tests" source="/Users/anhpham/Learn/InterviewAssignment/chotot_assignment/selenium_chotot/Tests">
 <kw name="Setup All" type="setup">
@@ -8,7 +8,7 @@
 <arguments>
 <arg>20 seconds</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:02.194" endtime="20210319 13:48:02.195"></status>
+<status status="PASS" starttime="20210319 14:19:22.213" endtime="20210319 14:19:22.213"></status>
 </kw>
 <kw name="Setup Browser Drivers" library="Initialize">
 <kw name="Evaluate" library="BuiltIn">
@@ -20,15 +20,15 @@
 <assign>
 <var>${system}</var>
 </assign>
-<msg timestamp="20210319 13:48:02.195" level="INFO">${system} = Darwin</msg>
-<status status="PASS" starttime="20210319 13:48:02.195" endtime="20210319 13:48:02.195"></status>
+<msg timestamp="20210319 14:19:22.214" level="INFO">${system} = Darwin</msg>
+<status status="PASS" starttime="20210319 14:19:22.213" endtime="20210319 14:19:22.214"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>\nI am running on ${system}</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:02.196" endtime="20210319 13:48:02.196"></status>
+<status status="PASS" starttime="20210319 14:19:22.214" endtime="20210319 14:19:22.214"></status>
 </kw>
 <kw name="Append To Environment Variable" library="OperatingSystem">
 <doc>Appends given ``values`` to environment variable ``name``.</doc>
@@ -36,8 +36,8 @@
 <arg>PATH</arg>
 <arg>${bin_path}/${system}/</arg>
 </arguments>
-<msg timestamp="20210319 13:48:02.197" level="INFO">Environment variable 'PATH' set to value '/Users/anhpham/.local/share/virtualenvs/chotot_assignment-ubQCyvw1/bin:/usr/local/Cellar/pipenv/2018.11.26_4/libexec/tools:/Users/anhpham/Library/Android/sdk/build-tools/29.0.6:/Users/anhpham/Library/Android/sdk/emulator:/Users/anhpham/Library/Android/sdk/tools:/Users/anhpham/Library/Android/sdk/tools:/Users/anhpham/Library/Android/sdk/tools/bin:/Users/anhpham/Library/Android/sdk/platform-tools:/Users/anhpham/Library/Android/sdk/emulator:/Users/anhpham/Tools/apache-maven-3.6.3/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/bin/:/Applications/Chrome Apps.localized/Contents/MacOS:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/anhpham/Library/Application Support/Neo4j Desktop/Application/neo4jDatabases/database-18471ec0-0f89-40c4-9182-cc10801da543/installation-3.5.17/bin:/Users/anhpham/.nvm/versions/node/v6.17.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/anhpham/Learn/InterviewAssignment/chotot_assignment/Resources/bin/Darwin/'.</msg>
-<status status="PASS" starttime="20210319 13:48:02.196" endtime="20210319 13:48:02.197"></status>
+<msg timestamp="20210319 14:19:22.214" level="INFO">Environment variable 'PATH' set to value '/Users/anhpham/.local/share/virtualenvs/chotot_assignment-ubQCyvw1/bin:/usr/local/Cellar/pipenv/2018.11.26_4/libexec/tools:/Users/anhpham/Library/Android/sdk/build-tools/29.0.6:/Users/anhpham/Library/Android/sdk/emulator:/Users/anhpham/Library/Android/sdk/tools:/Users/anhpham/Library/Android/sdk/tools:/Users/anhpham/Library/Android/sdk/tools/bin:/Users/anhpham/Library/Android/sdk/platform-tools:/Users/anhpham/Library/Android/sdk/emulator:/Users/anhpham/Tools/apache-maven-3.6.3/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/bin/:/Applications/Chrome Apps.localized/Contents/MacOS:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/anhpham/Library/Application Support/Neo4j Desktop/Application/neo4jDatabases/database-18471ec0-0f89-40c4-9182-cc10801da543/installation-3.5.17/bin:/Users/anhpham/.nvm/versions/node/v6.17.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/anhpham/Learn/InterviewAssignment/chotot_assignment/Resources/bin/Darwin/'.</msg>
+<status status="PASS" starttime="20210319 14:19:22.214" endtime="20210319 14:19:22.214"></status>
 </kw>
 <kw name="Set Environment Variable" library="OperatingSystem">
 <doc>Sets an environment variable to a specified value.</doc>
@@ -45,12 +45,12 @@
 <arg>webdriver.chrome.driver</arg>
 <arg>${bin_path}/${system}/chromedriver</arg>
 </arguments>
-<msg timestamp="20210319 13:48:02.198" level="INFO">Environment variable 'webdriver.chrome.driver' set to value '/Users/anhpham/Learn/InterviewAssignment/chotot_assignment/Resources/bin/Darwin/chromedriver'.</msg>
-<status status="PASS" starttime="20210319 13:48:02.197" endtime="20210319 13:48:02.198"></status>
+<msg timestamp="20210319 14:19:22.215" level="INFO">Environment variable 'webdriver.chrome.driver' set to value '/Users/anhpham/Learn/InterviewAssignment/chotot_assignment/Resources/bin/Darwin/chromedriver'.</msg>
+<status status="PASS" starttime="20210319 14:19:22.215" endtime="20210319 14:19:22.215"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:02.195" endtime="20210319 13:48:02.198"></status>
+<status status="PASS" starttime="20210319 14:19:22.213" endtime="20210319 14:19:22.215"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:02.194" endtime="20210319 13:48:02.199"></status>
+<status status="PASS" starttime="20210319 14:19:22.212" endtime="20210319 14:19:22.215"></status>
 </kw>
 <suite id="s1-s1-s1" name="Login" source="/Users/anhpham/Learn/InterviewAssignment/chotot_assignment/selenium_chotot/Tests/Login">
 <suite id="s1-s1-s1-s1" name="Chotot Login" source="/Users/anhpham/Learn/InterviewAssignment/chotot_assignment/selenium_chotot/Tests/Login/Chotot_Login.robot">
@@ -66,8 +66,8 @@
 <assign>
 <var>${chrome_options}</var>
 </assign>
-<msg timestamp="20210319 13:48:02.215" level="INFO">${chrome_options} = &lt;selenium.webdriver.chrome.options.Options object at 0x10797d610&gt;</msg>
-<status status="PASS" starttime="20210319 13:48:02.215" endtime="20210319 13:48:02.215"></status>
+<msg timestamp="20210319 14:19:22.228" level="INFO">${chrome_options} = &lt;selenium.webdriver.chrome.options.Options object at 0x1022f6610&gt;</msg>
+<status status="PASS" starttime="20210319 14:19:22.228" endtime="20210319 14:19:22.228"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -78,7 +78,7 @@
 <arg>add_argument</arg>
 <arg>--headless</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:02.216" endtime="20210319 13:48:02.216"></status>
+<status status="PASS" starttime="20210319 14:19:22.228" endtime="20210319 14:19:22.228"></status>
 </kw>
 <kw name="Call Method" library="BuiltIn">
 <doc>Calls the named method of the given object with the provided arguments.</doc>
@@ -87,7 +87,7 @@
 <arg>add_argument</arg>
 <arg>--remote-debugging-port\=${remote_debug_port}</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:02.216" endtime="20210319 13:48:02.216"></status>
+<status status="PASS" starttime="20210319 14:19:22.229" endtime="20210319 14:19:22.229"></status>
 </kw>
 <kw name="Call Method" library="BuiltIn">
 <doc>Calls the named method of the given object with the provided arguments.</doc>
@@ -98,8 +98,8 @@
 <assign>
 <var>${options}</var>
 </assign>
-<msg timestamp="20210319 13:48:02.217" level="INFO">${options} = {'browserName': 'chrome', 'version': '', 'platform': 'ANY', 'goog:chromeOptions': {'extensions': [], 'args': ['--remote-debugging-port=9223']}}</msg>
-<status status="PASS" starttime="20210319 13:48:02.217" endtime="20210319 13:48:02.217"></status>
+<msg timestamp="20210319 14:19:22.229" level="INFO">${options} = {'browserName': 'chrome', 'version': '', 'platform': 'ANY', 'goog:chromeOptions': {'extensions': [], 'args': ['--remote-debugging-port=9223']}}</msg>
+<status status="PASS" starttime="20210319 14:19:22.229" endtime="20210319 14:19:22.229"></status>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
@@ -108,8 +108,8 @@
 <arg>browser=${BROWSER}</arg>
 <arg>desired_capabilities=${options}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:02.218" level="INFO">Opening browser 'chrome' to base url 'https://www.chotot.com/'.</msg>
-<status status="PASS" starttime="20210319 13:48:02.217" endtime="20210319 13:48:07.501"></status>
+<msg timestamp="20210319 14:19:22.230" level="INFO">Opening browser 'chrome' to base url 'https://www.chotot.com/'.</msg>
+<status status="PASS" starttime="20210319 14:19:22.229" endtime="20210319 14:19:28.578"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -119,7 +119,7 @@
 <arg>1366</arg>
 <arg>768</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:07.502" endtime="20210319 13:48:07.502"></status>
+<status status="PASS" starttime="20210319 14:19:28.579" endtime="20210319 14:19:28.580"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -129,9 +129,9 @@
 </arguments>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20210319 13:48:07.503" endtime="20210319 13:48:07.680"></status>
+<status status="PASS" starttime="20210319 14:19:28.581" endtime="20210319 14:19:28.742"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:07.503" endtime="20210319 13:48:07.681"></status>
+<status status="PASS" starttime="20210319 14:19:28.580" endtime="20210319 14:19:28.742"></status>
 </kw>
 <kw name="Get Window Size" library="SeleniumLibrary">
 <doc>Returns current window width and height as integers.</doc>
@@ -139,29 +139,29 @@
 <var>${width}</var>
 <var>${height}</var>
 </assign>
-<msg timestamp="20210319 13:48:07.684" level="INFO">${width} = 1440</msg>
-<msg timestamp="20210319 13:48:07.684" level="INFO">${height} = 877</msg>
-<status status="PASS" starttime="20210319 13:48:07.681" endtime="20210319 13:48:07.684"></status>
+<msg timestamp="20210319 14:19:28.748" level="INFO">${width} = 1440</msg>
+<msg timestamp="20210319 14:19:28.748" level="INFO">${height} = 877</msg>
+<status status="PASS" starttime="20210319 14:19:28.743" endtime="20210319 14:19:28.748"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Display Resolution:${width}x${height}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:07.685" level="INFO">Display Resolution:1440x877</msg>
-<status status="PASS" starttime="20210319 13:48:07.684" endtime="20210319 13:48:07.685"></status>
+<msg timestamp="20210319 14:19:28.748" level="INFO">Display Resolution:1440x877</msg>
+<status status="PASS" starttime="20210319 14:19:28.748" endtime="20210319 14:19:28.748"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:02.215" endtime="20210319 13:48:07.685"></status>
+<status status="PASS" starttime="20210319 14:19:22.228" endtime="20210319 14:19:28.748"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the current browser window to the provided ``url``.</doc>
 <arguments>
 <arg>${siteUrl}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:07.686" level="INFO">Opening url 'https://www.chotot.com/'</msg>
-<status status="PASS" starttime="20210319 13:48:07.685" endtime="20210319 13:48:08.586"></status>
+<msg timestamp="20210319 14:19:28.749" level="INFO">Opening url 'https://www.chotot.com/'</msg>
+<status status="PASS" starttime="20210319 14:19:28.748" endtime="20210319 14:19:29.622"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:02.215" endtime="20210319 13:48:08.586"></status>
+<status status="PASS" starttime="20210319 14:19:22.227" endtime="20210319 14:19:29.623"></status>
 </kw>
 <test id="s1-s1-s1-s1-t1" name="Verify Text Field Label">
 <kw name="Go To Login Page" type="setup">
@@ -171,19 +171,19 @@
 <arguments>
 <arg>${LOGIN_BUTTON}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:08.595" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
-<status status="PASS" starttime="20210319 13:48:08.594" endtime="20210319 13:48:14.693"></status>
+<msg timestamp="20210319 14:19:29.626" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
+<status status="PASS" starttime="20210319 14:19:29.626" endtime="20210319 14:19:34.374"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:08.593" endtime="20210319 13:48:14.693"></status>
+<status status="PASS" starttime="20210319 14:19:29.625" endtime="20210319 14:19:34.374"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on the current page.</doc>
 <arguments>
 <arg>Chào bạn quay lại</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:14.694" endtime="20210319 13:48:14.707"></status>
+<status status="PASS" starttime="20210319 14:19:34.374" endtime="20210319 14:19:34.386"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:08.592" endtime="20210319 13:48:14.707"></status>
+<status status="PASS" starttime="20210319 14:19:29.625" endtime="20210319 14:19:34.387"></status>
 </kw>
 <kw name="Verify Text Place Holder of SDT Field" library="Login_Page">
 <arguments>
@@ -198,8 +198,8 @@
 <assign>
 <var>${actText}</var>
 </assign>
-<msg timestamp="20210319 13:48:14.726" level="INFO">${actText} = Nhập SĐT của bạn</msg>
-<status status="PASS" starttime="20210319 13:48:14.708" endtime="20210319 13:48:14.727"></status>
+<msg timestamp="20210319 14:19:34.402" level="INFO">${actText} = Nhập SĐT của bạn</msg>
+<status status="PASS" starttime="20210319 14:19:34.387" endtime="20210319 14:19:34.403"></status>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <doc>Fails if the given objects are unequal.</doc>
@@ -207,9 +207,9 @@
 <arg>${expText}</arg>
 <arg>${actText}</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:14.727" endtime="20210319 13:48:14.727"></status>
+<status status="PASS" starttime="20210319 14:19:34.403" endtime="20210319 14:19:34.403"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:14.708" endtime="20210319 13:48:14.727"></status>
+<status status="PASS" starttime="20210319 14:19:34.387" endtime="20210319 14:19:34.403"></status>
 </kw>
 <kw name="Verify Text Place Holder of Password Field" library="Login_Page">
 <arguments>
@@ -224,8 +224,8 @@
 <assign>
 <var>${actText}</var>
 </assign>
-<msg timestamp="20210319 13:48:14.745" level="INFO">${actText} = Nhập mật khẩu của bạn</msg>
-<status status="PASS" starttime="20210319 13:48:14.728" endtime="20210319 13:48:14.745"></status>
+<msg timestamp="20210319 14:19:34.419" level="INFO">${actText} = Nhập mật khẩu của bạn</msg>
+<status status="PASS" starttime="20210319 14:19:34.405" endtime="20210319 14:19:34.419"></status>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <doc>Fails if the given objects are unequal.</doc>
@@ -233,9 +233,9 @@
 <arg>${expText}</arg>
 <arg>${actText}</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:14.745" endtime="20210319 13:48:14.745"></status>
+<status status="PASS" starttime="20210319 14:19:34.419" endtime="20210319 14:19:34.419"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:14.728" endtime="20210319 13:48:14.746"></status>
+<status status="PASS" starttime="20210319 14:19:34.404" endtime="20210319 14:19:34.419"></status>
 </kw>
 <kw name="Back To Home Page" type="teardown">
 <kw name="Go To" library="SeleniumLibrary">
@@ -243,15 +243,15 @@
 <arguments>
 <arg>${siteUrl}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:14.747" level="INFO">Opening url 'https://www.chotot.com/'</msg>
-<status status="PASS" starttime="20210319 13:48:14.746" endtime="20210319 13:48:15.535"></status>
+<msg timestamp="20210319 14:19:34.420" level="INFO">Opening url 'https://www.chotot.com/'</msg>
+<status status="PASS" starttime="20210319 14:19:34.420" endtime="20210319 14:19:35.202"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:14.746" endtime="20210319 13:48:15.536"></status>
+<status status="PASS" starttime="20210319 14:19:34.420" endtime="20210319 14:19:35.202"></status>
 </kw>
 <tags>
 <tag>login</tag>
 </tags>
-<status status="PASS" starttime="20210319 13:48:08.587" endtime="20210319 13:48:15.536" critical="yes"></status>
+<status status="PASS" starttime="20210319 14:19:29.623" endtime="20210319 14:19:35.202" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-s1-t2" name="Verify Text Field Label">
 <kw name="Go To Login Page" type="setup">
@@ -261,19 +261,19 @@
 <arguments>
 <arg>${LOGIN_BUTTON}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:15.540" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
-<status status="PASS" starttime="20210319 13:48:15.540" endtime="20210319 13:48:16.458"></status>
+<msg timestamp="20210319 14:19:35.207" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
+<status status="PASS" starttime="20210319 14:19:35.206" endtime="20210319 14:19:36.519"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:15.539" endtime="20210319 13:48:16.459"></status>
+<status status="PASS" starttime="20210319 14:19:35.206" endtime="20210319 14:19:36.519"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on the current page.</doc>
 <arguments>
 <arg>Chào bạn quay lại</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:16.459" endtime="20210319 13:48:16.467"></status>
+<status status="PASS" starttime="20210319 14:19:36.519" endtime="20210319 14:19:36.528"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:15.539" endtime="20210319 13:48:16.467"></status>
+<status status="PASS" starttime="20210319 14:19:35.206" endtime="20210319 14:19:36.528"></status>
 </kw>
 <kw name="Verify Text Place Holder of SDT Field" library="Login_Page">
 <arguments>
@@ -288,8 +288,8 @@
 <assign>
 <var>${actText}</var>
 </assign>
-<msg timestamp="20210319 13:48:16.478" level="INFO">${actText} = Nhập SĐT của bạn</msg>
-<status status="PASS" starttime="20210319 13:48:16.468" endtime="20210319 13:48:16.478"></status>
+<msg timestamp="20210319 14:19:36.541" level="INFO">${actText} = Nhập SĐT của bạn</msg>
+<status status="PASS" starttime="20210319 14:19:36.529" endtime="20210319 14:19:36.541"></status>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <doc>Fails if the given objects are unequal.</doc>
@@ -297,9 +297,9 @@
 <arg>${expText}</arg>
 <arg>${actText}</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:16.478" endtime="20210319 13:48:16.479"></status>
+<status status="PASS" starttime="20210319 14:19:36.541" endtime="20210319 14:19:36.542"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:16.467" endtime="20210319 13:48:16.479"></status>
+<status status="PASS" starttime="20210319 14:19:36.528" endtime="20210319 14:19:36.542"></status>
 </kw>
 <kw name="Verify Text Place Holder of Password Field" library="Login_Page">
 <arguments>
@@ -314,8 +314,8 @@
 <assign>
 <var>${actText}</var>
 </assign>
-<msg timestamp="20210319 13:48:16.490" level="INFO">${actText} = Nhập mật khẩu của bạn</msg>
-<status status="PASS" starttime="20210319 13:48:16.479" endtime="20210319 13:48:16.490"></status>
+<msg timestamp="20210319 14:19:36.553" level="INFO">${actText} = Nhập mật khẩu của bạn</msg>
+<status status="PASS" starttime="20210319 14:19:36.542" endtime="20210319 14:19:36.553"></status>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <doc>Fails if the given objects are unequal.</doc>
@@ -323,9 +323,9 @@
 <arg>${expText}</arg>
 <arg>${actText}</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:16.490" endtime="20210319 13:48:16.490"></status>
+<status status="PASS" starttime="20210319 14:19:36.553" endtime="20210319 14:19:36.554"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:16.479" endtime="20210319 13:48:16.491"></status>
+<status status="PASS" starttime="20210319 14:19:36.542" endtime="20210319 14:19:36.555"></status>
 </kw>
 <kw name="Back To Home Page" type="teardown">
 <kw name="Go To" library="SeleniumLibrary">
@@ -333,15 +333,15 @@
 <arguments>
 <arg>${siteUrl}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:16.491" level="INFO">Opening url 'https://www.chotot.com/'</msg>
-<status status="PASS" starttime="20210319 13:48:16.491" endtime="20210319 13:48:17.291"></status>
+<msg timestamp="20210319 14:19:36.556" level="INFO">Opening url 'https://www.chotot.com/'</msg>
+<status status="PASS" starttime="20210319 14:19:36.555" endtime="20210319 14:19:37.622"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:16.491" endtime="20210319 13:48:17.291"></status>
+<status status="PASS" starttime="20210319 14:19:36.555" endtime="20210319 14:19:37.622"></status>
 </kw>
 <tags>
 <tag>login</tag>
 </tags>
-<status status="PASS" starttime="20210319 13:48:15.537" endtime="20210319 13:48:17.292" critical="yes"></status>
+<status status="PASS" starttime="20210319 14:19:35.204" endtime="20210319 14:19:37.622" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-s1-t3" name="Verify Login With Invalid Password">
 <kw name="Go To Login Page" type="setup">
@@ -351,19 +351,19 @@
 <arguments>
 <arg>${LOGIN_BUTTON}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:17.297" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
-<status status="PASS" starttime="20210319 13:48:17.297" endtime="20210319 13:48:18.481"></status>
+<msg timestamp="20210319 14:19:37.625" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
+<status status="PASS" starttime="20210319 14:19:37.625" endtime="20210319 14:19:44.339"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:17.296" endtime="20210319 13:48:18.482"></status>
+<status status="PASS" starttime="20210319 14:19:37.625" endtime="20210319 14:19:44.340"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on the current page.</doc>
 <arguments>
 <arg>Chào bạn quay lại</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:18.482" endtime="20210319 13:48:18.495"></status>
+<status status="PASS" starttime="20210319 14:19:44.340" endtime="20210319 14:19:44.348"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:17.295" endtime="20210319 13:48:18.496"></status>
+<status status="PASS" starttime="20210319 14:19:37.624" endtime="20210319 14:19:44.348"></status>
 </kw>
 <kw name="Login With Invalid Password">
 <arguments>
@@ -380,10 +380,10 @@
 <arg>${LOGIN_SDT}</arg>
 <arg>${sdt}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:18.498" level="INFO">Typing text '0353312920' into text field 'xpath://input[@type="tel"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:18.498" endtime="20210319 13:48:18.731"></status>
+<msg timestamp="20210319 14:19:44.350" level="INFO">Typing text '0353312920' into text field 'xpath://input[@type="tel"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:44.349" endtime="20210319 14:19:44.545"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:18.497" endtime="20210319 13:48:18.731"></status>
+<status status="PASS" starttime="20210319 14:19:44.349" endtime="20210319 14:19:44.545"></status>
 </kw>
 <kw name="Enter Password" library="Login_Page">
 <arguments>
@@ -395,10 +395,10 @@
 <arg>${LOGIN_PASSWORD}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:18.732" level="INFO">Typing text 'pwd' into text field 'xpath://input[@type="password"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:18.731" endtime="20210319 13:48:18.812"></status>
+<msg timestamp="20210319 14:19:44.546" level="INFO">Typing text 'pwd' into text field 'xpath://input[@type="password"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:44.546" endtime="20210319 14:19:44.631"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:18.731" endtime="20210319 13:48:18.812"></status>
+<status status="PASS" starttime="20210319 14:19:44.545" endtime="20210319 14:19:44.631"></status>
 </kw>
 <kw name="Click Log In Button" library="Login_Page">
 <kw name="Click Button" library="SeleniumLibrary">
@@ -406,10 +406,10 @@
 <arguments>
 <arg>${LOGIN_LOG_IN_BUTTON}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:18.813" level="INFO">Clicking button 'xpath://button[@type="submit"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:18.813" endtime="20210319 13:48:18.898"></status>
+<msg timestamp="20210319 14:19:44.633" level="INFO">Clicking button 'xpath://button[@type="submit"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:44.632" endtime="20210319 14:19:44.724"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:18.812" endtime="20210319 13:48:18.898"></status>
+<status status="PASS" starttime="20210319 14:19:44.631" endtime="20210319 14:19:44.724"></status>
 </kw>
 <kw name="Error Msg Should Be Show">
 <arguments>
@@ -420,19 +420,19 @@
 <arguments>
 <arg>${ERROR_MSG}</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:18.899" endtime="20210319 13:48:18.918"></status>
+<status status="PASS" starttime="20210319 14:19:44.725" endtime="20210319 14:19:44.776"></status>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <doc>Verifies that current page contains ``text``.</doc>
 <arguments>
 <arg>${errMsg}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:18.943" level="INFO">Current page contains text 'Password: Mật khẩu phải có ít nhất 5 kí tự.'.</msg>
-<status status="PASS" starttime="20210319 13:48:18.918" endtime="20210319 13:48:18.943"></status>
+<msg timestamp="20210319 14:19:44.790" level="INFO">Current page contains text 'Password: Mật khẩu phải có ít nhất 5 kí tự.'.</msg>
+<status status="PASS" starttime="20210319 14:19:44.776" endtime="20210319 14:19:44.790"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:18.898" endtime="20210319 13:48:18.944"></status>
+<status status="PASS" starttime="20210319 14:19:44.724" endtime="20210319 14:19:44.790"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:18.496" endtime="20210319 13:48:18.944"></status>
+<status status="PASS" starttime="20210319 14:19:44.348" endtime="20210319 14:19:44.790"></status>
 </kw>
 <kw name="Login With Invalid Password">
 <arguments>
@@ -449,10 +449,10 @@
 <arg>${LOGIN_SDT}</arg>
 <arg>${sdt}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:18.945" level="INFO">Typing text '0353312920' into text field 'xpath://input[@type="tel"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:18.945" endtime="20210319 13:48:19.073"></status>
+<msg timestamp="20210319 14:19:44.792" level="INFO">Typing text '0353312920' into text field 'xpath://input[@type="tel"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:44.791" endtime="20210319 14:19:44.905"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:18.945" endtime="20210319 13:48:19.074"></status>
+<status status="PASS" starttime="20210319 14:19:44.791" endtime="20210319 14:19:44.905"></status>
 </kw>
 <kw name="Enter Password" library="Login_Page">
 <arguments>
@@ -464,10 +464,10 @@
 <arg>${LOGIN_PASSWORD}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:19.075" level="INFO">Typing text 'pwdsdfsd' into text field 'xpath://input[@type="password"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:19.075" endtime="20210319 13:48:19.201"></status>
+<msg timestamp="20210319 14:19:44.907" level="INFO">Typing text 'pwdsdfsd' into text field 'xpath://input[@type="password"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:44.906" endtime="20210319 14:19:45.016"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:19.074" endtime="20210319 13:48:19.202"></status>
+<status status="PASS" starttime="20210319 14:19:44.906" endtime="20210319 14:19:45.017"></status>
 </kw>
 <kw name="Click Log In Button" library="Login_Page">
 <kw name="Click Button" library="SeleniumLibrary">
@@ -475,10 +475,10 @@
 <arguments>
 <arg>${LOGIN_LOG_IN_BUTTON}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:19.202" level="INFO">Clicking button 'xpath://button[@type="submit"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:19.202" endtime="20210319 13:48:19.267"></status>
+<msg timestamp="20210319 14:19:45.018" level="INFO">Clicking button 'xpath://button[@type="submit"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:45.017" endtime="20210319 14:19:45.102"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:19.202" endtime="20210319 13:48:19.267"></status>
+<status status="PASS" starttime="20210319 14:19:45.017" endtime="20210319 14:19:45.102"></status>
 </kw>
 <kw name="Error Msg Should Be Show">
 <arguments>
@@ -489,17 +489,19 @@
 <arguments>
 <arg>${ERROR_MSG}</arg>
 </arguments>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210319 13:48:40.013" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-14.png"&gt;&lt;img src="selenium-screenshot-14.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210319 13:48:39.440" endtime="20210319 13:48:40.013"></status>
+<status status="PASS" starttime="20210319 14:19:45.103" endtime="20210319 14:19:45.112"></status>
 </kw>
-<msg timestamp="20210319 13:48:40.017" level="FAIL">Element 'xpath://*[contains(@class,"error")]' did not appear in 20 seconds.</msg>
-<status status="FAIL" starttime="20210319 13:48:19.268" endtime="20210319 13:48:40.017"></status>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${errMsg}</arg>
+</arguments>
+<msg timestamp="20210319 14:19:45.126" level="INFO">Current page contains text 'Số điện thoại hoặc mật khẩu chưa đúng, vui lòng kiểm tra lại. Bạn chỉ còn 4 lần thử lại.'.</msg>
+<status status="PASS" starttime="20210319 14:19:45.112" endtime="20210319 14:19:45.126"></status>
 </kw>
-<status status="FAIL" starttime="20210319 13:48:19.267" endtime="20210319 13:48:40.017"></status>
+<status status="PASS" starttime="20210319 14:19:45.103" endtime="20210319 14:19:45.126"></status>
 </kw>
-<status status="FAIL" starttime="20210319 13:48:18.944" endtime="20210319 13:48:40.017"></status>
+<status status="PASS" starttime="20210319 14:19:44.791" endtime="20210319 14:19:45.126"></status>
 </kw>
 <kw name="Back To Home Page" type="teardown">
 <kw name="Go To" library="SeleniumLibrary">
@@ -507,15 +509,15 @@
 <arguments>
 <arg>${siteUrl}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:40.018" level="INFO">Opening url 'https://www.chotot.com/'</msg>
-<status status="PASS" starttime="20210319 13:48:40.018" endtime="20210319 13:48:40.966"></status>
+<msg timestamp="20210319 14:19:45.128" level="INFO">Opening url 'https://www.chotot.com/'</msg>
+<status status="PASS" starttime="20210319 14:19:45.127" endtime="20210319 14:19:45.908"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:40.018" endtime="20210319 13:48:40.966"></status>
+<status status="PASS" starttime="20210319 14:19:45.127" endtime="20210319 14:19:45.909"></status>
 </kw>
 <tags>
 <tag>login</tag>
 </tags>
-<status status="FAIL" starttime="20210319 13:48:17.293" endtime="20210319 13:48:40.967" critical="yes">Element 'xpath://*[contains(@class,"error")]' did not appear in 20 seconds.</status>
+<status status="PASS" starttime="20210319 14:19:37.623" endtime="20210319 14:19:45.909" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-s1-t4" name="Verify Login With Empty User/Password">
 <kw name="Go To Login Page" type="setup">
@@ -525,19 +527,19 @@
 <arguments>
 <arg>${LOGIN_BUTTON}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:40.971" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
-<status status="PASS" starttime="20210319 13:48:40.971" endtime="20210319 13:48:41.142"></status>
+<msg timestamp="20210319 14:19:45.913" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
+<status status="PASS" starttime="20210319 14:19:45.912" endtime="20210319 14:19:47.115"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:40.970" endtime="20210319 13:48:41.143"></status>
+<status status="PASS" starttime="20210319 14:19:45.912" endtime="20210319 14:19:47.115"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on the current page.</doc>
 <arguments>
 <arg>Chào bạn quay lại</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:41.143" endtime="20210319 13:48:41.497"></status>
+<status status="PASS" starttime="20210319 14:19:47.115" endtime="20210319 14:19:47.124"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:40.970" endtime="20210319 13:48:41.497"></status>
+<status status="PASS" starttime="20210319 14:19:45.911" endtime="20210319 14:19:47.124"></status>
 </kw>
 <kw name="Login With Empty SDT or Password">
 <arguments>
@@ -554,10 +556,10 @@
 <arg>${LOGIN_SDT}</arg>
 <arg>${sdt}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:41.499" level="INFO">Typing text '0353312920' into text field 'xpath://input[@type="tel"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:41.499" endtime="20210319 13:48:42.234"></status>
+<msg timestamp="20210319 14:19:47.126" level="INFO">Typing text '0353312920' into text field 'xpath://input[@type="tel"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:47.126" endtime="20210319 14:19:47.255"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:41.498" endtime="20210319 13:48:42.234"></status>
+<status status="PASS" starttime="20210319 14:19:47.126" endtime="20210319 14:19:47.255"></status>
 </kw>
 <kw name="Enter Password" library="Login_Page">
 <arguments>
@@ -569,10 +571,10 @@
 <arg>${LOGIN_PASSWORD}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:42.236" level="INFO">Typing text '' into text field 'xpath://input[@type="password"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:42.235" endtime="20210319 13:48:42.301"></status>
+<msg timestamp="20210319 14:19:47.256" level="INFO">Typing text '' into text field 'xpath://input[@type="password"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:47.256" endtime="20210319 14:19:47.319"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:42.235" endtime="20210319 13:48:42.301"></status>
+<status status="PASS" starttime="20210319 14:19:47.255" endtime="20210319 14:19:47.319"></status>
 </kw>
 <kw name="Login Button Should Be Disabled" library="Login_Page">
 <kw name="Element Should Be Disabled" library="SeleniumLibrary">
@@ -580,11 +582,11 @@
 <arguments>
 <arg>${LOGIN_LOG_IN_BUTTON}</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:42.302" endtime="20210319 13:48:42.316"></status>
+<status status="PASS" starttime="20210319 14:19:47.319" endtime="20210319 14:19:47.335"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:42.302" endtime="20210319 13:48:42.316"></status>
+<status status="PASS" starttime="20210319 14:19:47.319" endtime="20210319 14:19:47.335"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:41.498" endtime="20210319 13:48:42.316"></status>
+<status status="PASS" starttime="20210319 14:19:47.125" endtime="20210319 14:19:47.335"></status>
 </kw>
 <kw name="Login With Empty SDT or Password">
 <arguments>
@@ -601,10 +603,10 @@
 <arg>${LOGIN_SDT}</arg>
 <arg>${sdt}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:42.317" level="INFO">Typing text '' into text field 'xpath://input[@type="tel"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:42.317" endtime="20210319 13:48:42.406"></status>
+<msg timestamp="20210319 14:19:47.336" level="INFO">Typing text '' into text field 'xpath://input[@type="tel"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:47.336" endtime="20210319 14:19:47.457"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:42.317" endtime="20210319 13:48:42.406"></status>
+<status status="PASS" starttime="20210319 14:19:47.336" endtime="20210319 14:19:47.457"></status>
 </kw>
 <kw name="Enter Password" library="Login_Page">
 <arguments>
@@ -616,10 +618,10 @@
 <arg>${LOGIN_PASSWORD}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:42.407" level="INFO">Typing text 'Binhan@1993' into text field 'xpath://input[@type="password"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:42.406" endtime="20210319 13:48:42.488"></status>
+<msg timestamp="20210319 14:19:47.458" level="INFO">Typing text 'Binhan@1993' into text field 'xpath://input[@type="password"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:47.458" endtime="20210319 14:19:47.547"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:42.406" endtime="20210319 13:48:42.489"></status>
+<status status="PASS" starttime="20210319 14:19:47.457" endtime="20210319 14:19:47.547"></status>
 </kw>
 <kw name="Login Button Should Be Disabled" library="Login_Page">
 <kw name="Element Should Be Disabled" library="SeleniumLibrary">
@@ -629,15 +631,15 @@
 </arguments>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210319 13:48:42.977" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-15.png"&gt;&lt;img src="selenium-screenshot-15.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210319 13:48:42.506" endtime="20210319 13:48:42.977"></status>
+<msg timestamp="20210319 14:19:48.120" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210319 14:19:47.564" endtime="20210319 14:19:48.120"></status>
 </kw>
-<msg timestamp="20210319 13:48:42.979" level="FAIL">Element 'xpath://button[@type="submit"]' is enabled.</msg>
-<status status="FAIL" starttime="20210319 13:48:42.489" endtime="20210319 13:48:42.980"></status>
+<msg timestamp="20210319 14:19:48.124" level="FAIL">Element 'xpath://button[@type="submit"]' is enabled.</msg>
+<status status="FAIL" starttime="20210319 14:19:47.548" endtime="20210319 14:19:48.124"></status>
 </kw>
-<status status="FAIL" starttime="20210319 13:48:42.489" endtime="20210319 13:48:42.980"></status>
+<status status="FAIL" starttime="20210319 14:19:47.547" endtime="20210319 14:19:48.124"></status>
 </kw>
-<status status="FAIL" starttime="20210319 13:48:42.316" endtime="20210319 13:48:42.980"></status>
+<status status="FAIL" starttime="20210319 14:19:47.335" endtime="20210319 14:19:48.125"></status>
 </kw>
 <kw name="Login With Empty SDT or Password">
 <arguments>
@@ -654,10 +656,10 @@
 <arg>${LOGIN_SDT}</arg>
 <arg>${sdt}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:42.981" level="INFO">Typing text '' into text field 'xpath://input[@type="tel"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:42.981" endtime="20210319 13:48:43.089"></status>
+<msg timestamp="20210319 14:19:48.127" level="INFO">Typing text '' into text field 'xpath://input[@type="tel"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:48.127" endtime="20210319 14:19:48.238"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:42.981" endtime="20210319 13:48:43.089"></status>
+<status status="PASS" starttime="20210319 14:19:48.126" endtime="20210319 14:19:48.239"></status>
 </kw>
 <kw name="Enter Password" library="Login_Page">
 <arguments>
@@ -669,10 +671,10 @@
 <arg>${LOGIN_PASSWORD}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:43.090" level="INFO">Typing text '' into text field 'xpath://input[@type="password"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:43.090" endtime="20210319 13:48:43.148"></status>
+<msg timestamp="20210319 14:19:48.240" level="INFO">Typing text '' into text field 'xpath://input[@type="password"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:48.240" endtime="20210319 14:19:48.295"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:43.089" endtime="20210319 13:48:43.148"></status>
+<status status="PASS" starttime="20210319 14:19:48.239" endtime="20210319 14:19:48.295"></status>
 </kw>
 <kw name="Login Button Should Be Disabled" library="Login_Page">
 <kw name="Element Should Be Disabled" library="SeleniumLibrary">
@@ -682,15 +684,15 @@
 </arguments>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210319 13:48:43.642" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-16.png"&gt;&lt;img src="selenium-screenshot-16.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210319 13:48:43.164" endtime="20210319 13:48:43.642"></status>
+<msg timestamp="20210319 14:19:48.782" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210319 14:19:48.309" endtime="20210319 14:19:48.782"></status>
 </kw>
-<msg timestamp="20210319 13:48:43.642" level="FAIL">Element 'xpath://button[@type="submit"]' is enabled.</msg>
-<status status="FAIL" starttime="20210319 13:48:43.149" endtime="20210319 13:48:43.642"></status>
+<msg timestamp="20210319 14:19:48.783" level="FAIL">Element 'xpath://button[@type="submit"]' is enabled.</msg>
+<status status="FAIL" starttime="20210319 14:19:48.296" endtime="20210319 14:19:48.783"></status>
 </kw>
-<status status="FAIL" starttime="20210319 13:48:43.148" endtime="20210319 13:48:43.643"></status>
+<status status="FAIL" starttime="20210319 14:19:48.296" endtime="20210319 14:19:48.783"></status>
 </kw>
-<status status="FAIL" starttime="20210319 13:48:42.980" endtime="20210319 13:48:43.643"></status>
+<status status="FAIL" starttime="20210319 14:19:48.125" endtime="20210319 14:19:48.783"></status>
 </kw>
 <kw name="Back To Home Page" type="teardown">
 <kw name="Go To" library="SeleniumLibrary">
@@ -698,15 +700,15 @@
 <arguments>
 <arg>${siteUrl}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:43.644" level="INFO">Opening url 'https://www.chotot.com/'</msg>
-<status status="PASS" starttime="20210319 13:48:43.644" endtime="20210319 13:48:44.485"></status>
+<msg timestamp="20210319 14:19:48.784" level="INFO">Opening url 'https://www.chotot.com/'</msg>
+<status status="PASS" starttime="20210319 14:19:48.784" endtime="20210319 14:19:49.831"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:43.643" endtime="20210319 13:48:44.485"></status>
+<status status="PASS" starttime="20210319 14:19:48.784" endtime="20210319 14:19:49.831"></status>
 </kw>
 <tags>
 <tag>login</tag>
 </tags>
-<status status="FAIL" starttime="20210319 13:48:40.968" endtime="20210319 13:48:44.486" critical="yes">Several failures occurred:
+<status status="FAIL" starttime="20210319 14:19:45.910" endtime="20210319 14:19:49.831" critical="yes">Several failures occurred:
 
 1) Element 'xpath://button[@type="submit"]' is enabled.
 
@@ -720,19 +722,19 @@
 <arguments>
 <arg>${LOGIN_BUTTON}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:44.489" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
-<status status="PASS" starttime="20210319 13:48:44.489" endtime="20210319 13:48:45.716"></status>
+<msg timestamp="20210319 14:19:49.835" level="INFO">Clicking element 'xpath://a[contains(@href,"https://accounts.chotot.com?continue")]'.</msg>
+<status status="PASS" starttime="20210319 14:19:49.834" endtime="20210319 14:19:51.014"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:44.489" endtime="20210319 13:48:45.716"></status>
+<status status="PASS" starttime="20210319 14:19:49.834" endtime="20210319 14:19:51.014"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on the current page.</doc>
 <arguments>
 <arg>Chào bạn quay lại</arg>
 </arguments>
-<status status="PASS" starttime="20210319 13:48:45.716" endtime="20210319 13:48:45.725"></status>
+<status status="PASS" starttime="20210319 14:19:51.014" endtime="20210319 14:19:51.022"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:44.488" endtime="20210319 13:48:45.725"></status>
+<status status="PASS" starttime="20210319 14:19:49.833" endtime="20210319 14:19:51.023"></status>
 </kw>
 <kw name="Enter SDT" library="Login_Page">
 <arguments>
@@ -744,10 +746,10 @@
 <arg>${LOGIN_SDT}</arg>
 <arg>${sdt}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:45.726" level="INFO">Typing text '0353312920' into text field 'xpath://input[@type="tel"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:45.726" endtime="20210319 13:48:45.841"></status>
+<msg timestamp="20210319 14:19:51.024" level="INFO">Typing text '0353312920' into text field 'xpath://input[@type="tel"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:51.023" endtime="20210319 14:19:51.173"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:45.725" endtime="20210319 13:48:45.841"></status>
+<status status="PASS" starttime="20210319 14:19:51.023" endtime="20210319 14:19:51.173"></status>
 </kw>
 <kw name="Enter Password" library="Login_Page">
 <arguments>
@@ -759,10 +761,10 @@
 <arg>${LOGIN_PASSWORD}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:45.842" level="INFO">Typing text 'Binhan@1993' into text field 'xpath://input[@type="password"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:45.842" endtime="20210319 13:48:45.967"></status>
+<msg timestamp="20210319 14:19:51.174" level="INFO">Typing text 'Binhan@1993' into text field 'xpath://input[@type="password"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:51.174" endtime="20210319 14:19:51.286"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:45.841" endtime="20210319 13:48:45.968"></status>
+<status status="PASS" starttime="20210319 14:19:51.173" endtime="20210319 14:19:51.287"></status>
 </kw>
 <kw name="Click Log In Button" library="Login_Page">
 <kw name="Click Button" library="SeleniumLibrary">
@@ -770,22 +772,25 @@
 <arguments>
 <arg>${LOGIN_LOG_IN_BUTTON}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:45.969" level="INFO">Clicking button 'xpath://button[@type="submit"]'.</msg>
-<status status="PASS" starttime="20210319 13:48:45.968" endtime="20210319 13:48:46.070"></status>
+<msg timestamp="20210319 14:19:51.288" level="INFO">Clicking button 'xpath://button[@type="submit"]'.</msg>
+<status status="PASS" starttime="20210319 14:19:51.288" endtime="20210319 14:19:51.376"></status>
 </kw>
-<status status="PASS" starttime="20210319 13:48:45.968" endtime="20210319 13:48:46.071"></status>
+<status status="PASS" starttime="20210319 14:19:51.287" endtime="20210319 14:19:51.376"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on the current page.</doc>
 <arguments>
 <arg>${USER_NAME}</arg>
 </arguments>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="FAIL" starttime="20210319 13:48:54.337" endtime="20210319 13:48:54.338"></status>
+<status status="PASS" starttime="20210319 14:19:51.376" endtime="20210319 14:19:52.405"></status>
 </kw>
-<msg timestamp="20210319 13:48:54.338" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
-<status status="FAIL" starttime="20210319 13:48:46.071" endtime="20210319 13:48:54.338"></status>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>${USER_NAME}</arg>
+</arguments>
+<msg timestamp="20210319 14:19:52.414" level="INFO">Current page contains text 'Anh Ha'.</msg>
+<status status="PASS" starttime="20210319 14:19:52.405" endtime="20210319 14:19:52.414"></status>
 </kw>
 <kw name="Back To Home Page" type="teardown">
 <kw name="Go To" library="SeleniumLibrary">
@@ -793,74 +798,44 @@
 <arguments>
 <arg>${siteUrl}</arg>
 </arguments>
-<msg timestamp="20210319 13:48:54.341" level="INFO">Opening url 'https://www.chotot.com/'</msg>
-<msg timestamp="20210319 13:48:54.344" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10797d6a0&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/url</msg>
-<msg timestamp="20210319 13:48:54.346" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x107a362e0&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/url</msg>
-<msg timestamp="20210319 13:48:54.347" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10671eb20&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/url</msg>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210319 13:48:54.355" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079695e0&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/screenshot</msg>
-<msg timestamp="20210319 13:48:54.357" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x107969d60&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/screenshot</msg>
-<msg timestamp="20210319 13:48:54.364" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079693d0&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/screenshot</msg>
-<msg timestamp="20210319 13:48:54.385" level="FAIL">MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=63454): Max retries exceeded with url: /session/64e564aaa730a14732bba192cde85fd4/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10797d730&gt;: Failed to establish a new connection: [Errno 61] Connection refused'))</msg>
-<status status="FAIL" starttime="20210319 13:48:54.349" endtime="20210319 13:48:54.385"></status>
+<msg timestamp="20210319 14:19:52.415" level="INFO">Opening url 'https://www.chotot.com/'</msg>
+<status status="PASS" starttime="20210319 14:19:52.415" endtime="20210319 14:19:53.094"></status>
 </kw>
-<msg timestamp="20210319 13:48:54.385" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=63454): Max retries exceeded with url: /session/64e564aaa730a14732bba192cde85fd4/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10797d730&gt;: Failed to establish a new connection: [Errno 61] Connection refused'))</msg>
-<msg timestamp="20210319 13:48:54.391" level="FAIL">MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=63454): Max retries exceeded with url: /session/64e564aaa730a14732bba192cde85fd4/url (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10671eb80&gt;: Failed to establish a new connection: [Errno 61] Connection refused'))</msg>
-<status status="FAIL" starttime="20210319 13:48:54.340" endtime="20210319 13:48:54.392"></status>
-</kw>
-<status status="FAIL" starttime="20210319 13:48:54.339" endtime="20210319 13:48:54.392">MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=63454): Max retries exceeded with url: /session/64e564aaa730a14732bba192cde85fd4/url (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10671eb80&gt;: Failed to establish a new connection: [Errno 61] Connection refused'))</status>
+<status status="PASS" starttime="20210319 14:19:52.415" endtime="20210319 14:19:53.094"></status>
 </kw>
 <tags>
 <tag>login</tag>
 </tags>
-<status status="FAIL" starttime="20210319 13:48:44.487" endtime="20210319 13:48:54.392" critical="yes">Execution terminated by signal
-
-Also teardown failed:
-MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=63454): Max retries exceeded with url: /session/64e564aaa730a14732bba192cde85fd4/url (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10671eb80&gt;: Failed to establish a new connection: [Errno 61] Connection refused'))</status>
+<status status="PASS" starttime="20210319 14:19:49.832" endtime="20210319 14:19:53.095" critical="yes"></status>
 </test>
 <kw name="Close All Browsers" library="SeleniumLibrary" type="teardown">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<msg timestamp="20210319 13:48:54.398" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079d0130&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4</msg>
-<msg timestamp="20210319 13:48:54.399" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079d0220&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4</msg>
-<msg timestamp="20210319 13:48:54.400" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079d0400&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4</msg>
-<status status="PASS" starttime="20210319 13:48:54.397" endtime="20210319 13:48:54.409"></status>
+<status status="PASS" starttime="20210319 14:19:53.096" endtime="20210319 14:19:53.289"></status>
 </kw>
-<status status="FAIL" starttime="20210319 13:48:02.202" endtime="20210319 13:48:54.409"></status>
+<status status="FAIL" starttime="20210319 14:19:22.217" endtime="20210319 14:19:53.289"></status>
 </suite>
-<status status="FAIL" starttime="20210319 13:48:02.199" endtime="20210319 13:48:54.414"></status>
+<status status="FAIL" starttime="20210319 14:19:22.215" endtime="20210319 14:19:53.294"></status>
 </suite>
-<status status="FAIL" starttime="20210319 13:48:01.891" endtime="20210319 13:48:54.418"></status>
+<status status="FAIL" starttime="20210319 14:19:21.885" endtime="20210319 14:19:53.298"></status>
 </suite>
-<status status="FAIL" starttime="20210319 13:48:01.864" endtime="20210319 13:48:54.426"></status>
+<status status="FAIL" starttime="20210319 14:19:21.860" endtime="20210319 14:19:53.301"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="3">Critical Tests</stat>
-<stat pass="2" fail="3">All Tests</stat>
+<stat pass="4" fail="1">Critical Tests</stat>
+<stat pass="4" fail="1">All Tests</stat>
 </total>
 <tag>
-<stat pass="2" fail="3">login</stat>
+<stat pass="4" fail="1">login</stat>
 </tag>
 <suite>
-<stat pass="2" fail="3" id="s1" name="Selenium Chotot">Selenium Chotot</stat>
-<stat pass="2" fail="3" id="s1-s1" name="Tests">Selenium Chotot.Tests</stat>
-<stat pass="2" fail="3" id="s1-s1-s1" name="Login">Selenium Chotot.Tests.Login</stat>
-<stat pass="2" fail="3" id="s1-s1-s1-s1" name="Chotot Login">Selenium Chotot.Tests.Login.Chotot Login</stat>
+<stat pass="4" fail="1" id="s1" name="Selenium Chotot">Selenium Chotot</stat>
+<stat pass="4" fail="1" id="s1-s1" name="Tests">Selenium Chotot.Tests</stat>
+<stat pass="4" fail="1" id="s1-s1-s1" name="Login">Selenium Chotot.Tests.Login</stat>
+<stat pass="4" fail="1" id="s1-s1-s1-s1" name="Chotot Login">Selenium Chotot.Tests.Login.Chotot Login</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20210319 13:48:15.537" level="WARN">Multiple test cases with name 'Verify Text Field Label' executed in test suite 'Selenium Chotot.Tests.Login.Chotot Login'.</msg>
-<msg timestamp="20210319 13:48:54.338" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
-<msg timestamp="20210319 13:48:54.344" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10797d6a0&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/url</msg>
-<msg timestamp="20210319 13:48:54.346" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x107a362e0&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/url</msg>
-<msg timestamp="20210319 13:48:54.347" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10671eb20&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/url</msg>
-<msg timestamp="20210319 13:48:54.355" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079695e0&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/screenshot</msg>
-<msg timestamp="20210319 13:48:54.357" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x107969d60&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/screenshot</msg>
-<msg timestamp="20210319 13:48:54.364" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079693d0&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4/screenshot</msg>
-<msg timestamp="20210319 13:48:54.385" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=63454): Max retries exceeded with url: /session/64e564aaa730a14732bba192cde85fd4/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x10797d730&gt;: Failed to establish a new connection: [Errno 61] Connection refused'))</msg>
-<msg timestamp="20210319 13:48:54.398" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079d0130&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4</msg>
-<msg timestamp="20210319 13:48:54.399" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079d0220&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4</msg>
-<msg timestamp="20210319 13:48:54.400" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x1079d0400&gt;: Failed to establish a new connection: [Errno 61] Connection refused')': /session/64e564aaa730a14732bba192cde85fd4</msg>
+<msg timestamp="20210319 14:19:35.204" level="WARN">Multiple test cases with name 'Verify Text Field Label' executed in test suite 'Selenium Chotot.Tests.Login.Chotot Login'.</msg>
 </errors>
 </robot>
