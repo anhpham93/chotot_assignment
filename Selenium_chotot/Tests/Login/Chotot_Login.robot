@@ -16,25 +16,25 @@ Force Tags      login
 
 *** Test Cases ***
 Verify Text Field Label
+    [Tags]    login
     Verify Text Place Holder of SDT Field    Nhập SĐT của bạn
     Verify Text Place Holder of Password Field        Nhập mật khẩu của bạn
 
-Verify Text Field Label
-    Verify Text Place Holder of SDT Field         Nhập SĐT của bạn
-    Verify Text Place Holder of Password Field    Nhập mật khẩu của bạn
-
 Verify Login With Invalid Password
+    [Tags]    login    invalid_login
     [Template]    Login With Invalid Password
     ${PWD_NOT_ENOUGH}       ${ERR_PWD_NOT_ENOUGH}
     ${PWD_INVALID}          ${ERR_PWD_INVALID}
 
 Verify Login With Empty User/Password
+    [Tags]    login    invalid_login
     [Template]    Login With Empty SDT or Password
     ${SDT_VALID}       ${EMPTY}
     ${EMPTY}           ${PWD_VALID}
     ${EMPTY}           ${EMPTY}
 
 Login With Valid Credentials
+    [Tags]    login    valid_login
     Enter SDT    ${SDT_VALID}
     Enter Password    ${PWD_VALID}
     Click Log In Button

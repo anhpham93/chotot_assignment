@@ -1,10 +1,10 @@
 *** Variables ***
-${USER_NAME}            Anh Ha
+${USER_NAME}            please input valid username
 
-${SDT_VALID}            0353312920
+${SDT_VALID}            please input valid sdt
 ${SDT_INVALID}          0123243435
 
-${PWD_VALID}            Binhan@1993
+${PWD_VALID}            please input valid pwd
 ${PWD_NOT_ENOUGH}       pwd
 ${PWD_INVALID}          pwdsdfsd
 
